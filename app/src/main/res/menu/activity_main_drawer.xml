@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_persiapan"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_persiapan"
+            android:icon="@drawable/ic_persiapan"
+            android:title="@string/nav_persiapan" />
+        <item
+            android:id="@+id/nav_penetasan"
+            android:icon="@drawable/ic_penetasan"
+            android:title="@string/nav_penetasan" />
+
+        <item
+            android:id="@+id/nav_dini"
+            android:icon="@drawable/ic_dini"
+            android:title="@string/nav_dini" />
+
+        <item
+            android:id="@+id/nav_menengah"
+            android:icon="@drawable/ic_menengah"
+            android:title="@string/nav_menengah" />
+
+        <item
+            android:id="@+id/nav_lanjut"
+            android:icon="@drawable/ic_lanjut"
+            android:title="@string/nav_lanjut" />
+
+        <item
+            android:id="@+id/nav_perawatan"
+            android:icon="@drawable/ic_perawatan"
+            android:title="@string/nav_perawatan" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+</menu>
